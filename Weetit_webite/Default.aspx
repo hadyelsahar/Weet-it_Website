@@ -30,7 +30,7 @@
                 <span><input type="radio" name="option" id="relate" /><label for="relate">Relate</label></span>
             </div>
             <div class="searchbox">
-                <input type="text" /><a href="#" class="button addbutton"></a><a href="#" class="button searchbutton"></a>
+                <input type="text" class="searchinput" /><a href="#" class="button addbutton"></a><a href="#" class="button searchbutton"></a>
             </div>
             <div class="addedEntitiesBox">
                 <span class="title">Relate between:</span> <span class="addedEntity">Batman begins<img
@@ -42,6 +42,7 @@
             </div>
         </div>
         <div class="footer">
+        </div>
         </div>
 </body>
 </html>
