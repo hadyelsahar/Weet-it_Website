@@ -1,0 +1,63 @@
+﻿
+.contentwrapper .answerbox .fullprofile .profilepic
+{
+    float:left;
+    padding-bottom:10px;
+    padding-right:10px;
+}
+.contentwrapper .answerbox .fullprofile .profilepic img
+{
+    max-height:250px;
+    max-width:250px;
+}
+.contentwrapper .answerbox .fullprofile .abstract .profiletitle
+{
+    font-size:x-large;
+    font-weight:bold;
+}
+.contentwrapper .answerbox .fullprofile .clearfix
+{
+    clear:both;
+}
+.contentwrapper .answerbox .fullprofile .relatedresults img
+{
+    max-width:75px;
+}
+
+.contentwrapper .answerbox .fullprofile .subtitle
+{
+    color:Gray;
+    font-size:larger;
+}
+.contentwrapper .answerbox .fullprofile .profiledetails .property
+{
+    width:25%;
+    vertical-align:text-top;
+}
+.contentwrapper .answerbox .fullprofile .profiledetails .value
+{
+    width:75%;
+    vertical-align:text-top;
+}
+
+.contentwrapper .answerbox .miniprofile .minileft
+{
+    float: left;
+}
+.contentwrapper .answerbox .miniprofile .minileft img
+{
+    max-height: 200px;
+    max-width: 200px;
+}
+.contentwrapper .answerbox .miniprofile .miniright
+{
+    float: left;
+    width: 400px;
+    background-color: White;
+}
+.contentwrapper .answerbox .miniprofile .minitable td
+{
+    background-color:Red;
+    width:100px;
+    
+}
