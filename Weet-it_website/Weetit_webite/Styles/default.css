@@ -28,6 +28,14 @@ body
 {
     height: 40px;
     background-color: #372B2B;
+    position:absolute;
+    display:block;
+    width:100%;
+    z-index:999px;
+    left:0px;
+    right:0px;
+    top:0px;
+    
 }
 
 .header .topmenu
