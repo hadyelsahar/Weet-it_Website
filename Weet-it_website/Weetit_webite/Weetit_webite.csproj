@@ -59,6 +59,7 @@
     <Content Include="img\add.png" />
     <Content Include="img\add_clicked.png" />
     <Content Include="img\add_hover.png" />
+    <Content Include="img\closeIcon.png" />
     <Content Include="img\logo.png" />
     <Content Include="img\sb.png" />
     <Content Include="img\sb_clicked.png" />

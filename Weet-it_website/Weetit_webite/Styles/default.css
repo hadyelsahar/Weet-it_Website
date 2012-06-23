@@ -5,12 +5,17 @@ upper bar background : #372B2B;
 buttons  up : #F1F1F1;
 buttons down : #E2E2E2;
 
+borders for text input and buttons and search boxes : #DFDFDF ; 
+
+color 1 : #969696
+
+color 2 : #
+
 */
 .clearfix
 {
     clear: both;
 }
-
 
 body
 {
@@ -63,20 +68,45 @@ body
     background-repeat: no-repeat;
 }
 
+/* button width : 43 px */
+/* searchbox width : 443px */
+
+
 .maincontainer .searcharea
 {
     margin: auto;
     margin-top: 50px;
 }
 
-/* button width : 43 px */
-/* searchbox width : 443px */
+.maincontainer .searcharea .options
+{
+    max-width:500px;
+    margin:auto;
+    color: #585858;
+    font-size: 15px;
+}
+.maincontainer .searcharea .options span
+{
+    margin-left:30px;
+}
+
+.maincontainer .searcharea .options input
+{
+    width:20px;
+    height:13px;
+}
+.maincontainer .searcharea .options label
+{
+    padding:2px;
+}
 
 .maincontainer .searcharea .searchbox
 {
     width: 486px;
     margin: auto;
     position: relative;
+    margin-bottom: 20px;
+    height:35px;
 }
 
 .maincontainer .searcharea input
@@ -92,7 +122,7 @@ body
 
 .maincontainer .searcharea .searchbox input:focus
 {
-    border: 1px #75AD5A solid;
+    border: 1px #f36324 solid;
 }
 
 .maincontainer .searcharea .button
@@ -142,7 +172,47 @@ body
     background-image: url('../img/add_clicked.png');
 }
 
+.maincontainer .searcharea .addedEntitiesBox
+{
+    min-height: 10px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    margin-top:40px;
+    border: 1px solid #DFDFDF;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
 
+.maincontainer .searcharea .addedEntitiesBox .title
+{
+    color: #969696;
+    font-size: 12px;
+}
 
+.maincontainer .searcharea .addedEntitiesBox .addedEntity
+{
+    max-width: 450px;
+    padding: 3px;
+    margin: 2px;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    color: #585858;
+    font-size: 15px;
+    position: relative;
+}
 
+.maincontainer .searcharea .addedEntitiesBox .addedEntity img
+{
+    margin: 2px;
+}
+
+.maincontainer .searcharea .addedEntitiesBox .addedEntity:hover
+{
+    padding: 2px;
+    color: #585858;
+    border: 1px solid DFDFDF;
+}
 

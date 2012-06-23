@@ -24,13 +24,24 @@
         <div class="logo">
         </div>
         <div class="searcharea">
+            <div class="options">
+                <span><input type="radio" name="option" id="QA" /><label for="QA">Q&A</label></span>
+                <span><input type="radio" name="option" id="compare" /><label for="compare">Compare</label></span>
+                <span><input type="radio" name="option" id="relate" /><label for="relate">Relate</label></span>
+            </div>
             <div class="searchbox">
-                <input type="text" name="searchbox" /><a href="#" class="button addbutton"></a><a
-                    href="#" class="button searchbutton"></a>
+                <input type="text" /><a href="#" class="button addbutton"></a><a href="#" class="button searchbutton"></a>
+            </div>
+            <div class="addedEntitiesBox">
+                <span class="title">Relate between:</span> <span class="addedEntity">Batman begins<img
+                    src="img/closeIconHover.png" /></span> <span class="addedEntity">how i met your mother
+                        <img src="img/closeIcon.png" />
+                    </span><span class="addedEntity">assasins creed<img src="img/closeIcon.png" /></span>
+                <span class="addedEntity">Hello<img src="img/closeIcon.png" /></span> <span class="addedEntity">
+                    anitvirus<img src="img/closeIcon.png" /></span>
             </div>
         </div>
-    </div>
-    <div class="footer">
-    </div>
+        <div class="footer">
+        </div>
 </body>
 </html>
