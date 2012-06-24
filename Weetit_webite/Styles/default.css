@@ -12,6 +12,7 @@ color 1 : #969696
 color 2 : #
 
 */
+
 .clearfix
 {
     clear: both;
@@ -22,6 +23,8 @@ body
     font-family: Arial;
     background-color: #F3F3F3;
     margin: 0px;
+    color:#372B2B;
+    font-size:#372B2B;
 }
 
 .header
@@ -150,6 +153,7 @@ body
     background-repeat: no-repeat;
     position: absolute;
     right :41px;
+    display:none;
 }
 
 .maincontainer .searcharea .searchbox .searchbutton
@@ -192,6 +196,7 @@ body
     border: 1px solid #DFDFDF;
     -webkit-border-radius: 8px;
     border-radius: 8px;
+    display:none;
 }
 
 .maincontainer .searcharea .addedEntitiesBox .title

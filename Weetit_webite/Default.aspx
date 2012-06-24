@@ -5,6 +5,7 @@
 <head>
     <title>Weetit- the knowledge engine</title>
     <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/UX/default.js" type="text/javascript"></script>
     <link href="Styles/default.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -25,9 +26,9 @@
         </div>
         <div class="searcharea">
             <div class="options">
-                <span><input type="radio" name="option" id="QA" /><label for="QA">Q&A</label></span>
-                <span><input type="radio" name="option" id="compare" /><label for="compare">Compare</label></span>
-                <span><input type="radio" name="option" id="relate" /><label for="relate">Relate</label></span>
+                <span><input type="radio" name="option" value="QA" id="QA" checked /><label for="QA">Q&A</label></span>
+                <span><input type="radio" name="option" value="compare" id="compare" /><label for="compare">Compare</label></span>
+                <span><input type="radio" name="option" value="relate"id="relate" /><label for="relate">Relate</label></span>
             </div>
             <div class="searchbox">
                 <input type="text" class="searchinput" /><a href="#" class="button addbutton"></a><a href="#" class="button searchbutton"></a>

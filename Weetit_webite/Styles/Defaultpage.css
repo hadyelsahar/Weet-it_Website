@@ -1,7 +1,10 @@
 ﻿ body 
 {
-    font-family:Arial;
+    font-family:arial ,Sans-Serif;
     background-color:#F0F0F0;
+    color:#372B2B;
+    font-size:16px;
+
     margin:0px;
 }
 .header
@@ -67,14 +70,15 @@ border-left:1px solid;
 }
 .contentwrapper .answerbox
 {
-    border-color:#E2DEDE;
-    border-style:solid;
-    border-radius:10px;
+    border:1px solid #E2DEDE;
+    -webkit-border-radius: 10px;
+border-radius: 10px;
     padding:30px;
     width:700px;
-    padding-top:45px;
+    padding-top:25px;
     float:left;
     overflow:hidden;
+    background-color:White;
 }
 .contentwrapper .rightcol
 {
