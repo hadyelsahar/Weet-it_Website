@@ -21,8 +21,28 @@
         </div>
         <div class="logo">
         </div>
+          <div class="searcharea">
+            <div class="options">
+                <span><input type="radio" name="option" value="QA" id="QA" checked /><label for="QA">Q&A</label></span>
+                <span><input type="radio" name="option" value="compare" id="compare" /><label for="compare">Compare</label></span>
+                <span><input type="radio" name="option" value="relate"id="relate" /><label for="relate">Relate</label></span>
+            </div>
+            <div class="searchbox">
+                <input type="text" class="searchinput" /><a href="#" class="button addbutton"></a><a href="#" class="button searchbutton"></a>
+            </div>
+            <div class="addedEntitiesBox">
+                <span class="title">Relate between:</span> <span class="addedEntity">Batman begins<img
+                    src="img/closeIconHover.png" /></span> <span class="addedEntity">how i met your mother
+                        <img src="img/closeIcon.png" />
+                    </span><span class="addedEntity">assasins creed<img src="img/closeIcon.png" /></span>
+                <span class="addedEntity">Hello<img src="img/closeIcon.png" /></span> <span class="addedEntity">
+                    anitvirus<img src="img/closeIcon.png" /></span>
+            </div>
+        </div>
         <div class="clearfix">
         </div>
+        
+
     </div>
     <div class="contentwrapper">
         <div class="leftcol">
