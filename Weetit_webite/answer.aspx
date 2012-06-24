@@ -59,35 +59,13 @@
                         <a href="#" class="title">David Beckham </a>
                         <p class="abstracttext">
                             David Robert Joseph Beckham, (born 2 May 1975) is an English footballer who plays
-                            midfield for Los Angeles Galaxy in Major League Soccer, having previously played
-                            for Manchester United, Preston North End, Real Madrid, and A.C. Milan, as well as
-                            the England national team, for whom he holds the all-time appearance record for
-                            an outfield player. Beckham's career began when he signed a professional contract
-                            with Manchester United, making his first-team debut in 1992 aged 17. During his
-                            time there, United won the Premier League title six times, the FA Cup twice, and
-                            the UEFA Champions League in 1999. He left Manchester United to sign for Real Madrid
-                            in 2003, where he remained for four seasons, clinching the La Liga championship
-                            in his final season with the club. In January 2007, it was announced that Beckham
-                            would leave Real Madrid for the Major League Soccer club Los Angeles Galaxy, signing
-                            a five-year contract with them on 1 July 2007. While a Galaxy player, he spent two
-                            loan spells in Italy with Milan in 2009 and 2010. In international football, Beckham
-                            made his England debut on 1 September 1996, at the age of 21. He was made captain
-                            from 15 November 2000 until the 2006 FIFA World Cup finals, during which he played
-                            58 times. He earned a much-publicised hundredth cap against France on 26 March 2008,
-                            and became the all-time outfield player appearance record holder on 28 March 2009
-                            when he surpassed Bobby Moore's total of 108 caps. With 115 career appearances to
-                            date he has stated that he does not intend to retire from international football,
+                            midfield for Los Angeles Galaxy in Major League Soccer, having previously played,
                             having missed the 2010 World Cup through injury and not featuring in England manager
                             Fabio Capello's post-World Cup plans. Beckham has twice been runner-up for FIFA
                             World Player of the Year and in 2004 was the world's highest-paid footballer when
                             taking into account salary and advertising deals. Beckham was the first British
                             footballer to play 100 Champions League matches. He is third in the Premier League's
                             all time time assist provider chart, with 152 assists in 265 appearances. He was
-                            Google's most searched of all sports topics in both 2003 and 2004. With such global
-                            recognition he has become an elite advertising brand and a top fashion icon. When
-                            joining the MLS in 2007 he was given the highest player salary in the league's history,
-                            with his playing contract with the Galaxy over the next three years being worth
-                            US$6.5m per year. He has been married to singer and fashion designer Victoria Beckham
                             since 1999; they have four children.</p>
                     </div>
                     <div class="clearfix">
