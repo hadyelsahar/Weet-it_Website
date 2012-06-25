@@ -22,6 +22,28 @@
         </div>
         <div class="logo">
         </div>
+        <div class="searcharea">
+            <div class="options">
+                <span>
+                    <input type="radio" name="option" value="QA" id="QA" checked /><label for="QA">Q&A</label></span>
+                <span>
+                    <input type="radio" name="option" value="compare" id="compare" /><label for="compare">Compare</label></span>
+                <span>
+                    <input type="radio" name="option" value="relate" id="relate" /><label for="relate">Relate</label></span>
+            </div>
+            <div class="searchbox">
+                <input type="text" class="searchinput" /><a href="#" class="button addbutton"></a><a
+                    href="#" class="button searchbutton"></a>
+            </div>
+            <div class="addedEntitiesBox">
+                <span class="title">Relate between:</span> <span class="addedEntity">Batman begins<img
+                    src="img/closeIconHover.png" /></span> <span class="addedEntity">how i met your mother
+                        <img src="img/closeIcon.png" />
+                    </span><span class="addedEntity">assasins creed<img src="img/closeIcon.png" /></span>
+                <span class="addedEntity">Hello<img src="img/closeIcon.png" /></span> <span class="addedEntity">
+                    anitvirus<img src="img/closeIcon.png" /></span>
+            </div>
+        </div>
         <div class="clearfix">
         </div>
     </div>
@@ -32,35 +54,44 @@
         </div>
         <div class="answerbox">
             <div class="testdiv">
-               <button type="button" class="leftbutton" onclick="moveleft()">Left</button>
-               <button type="button" class="rightbutton" onclick="moveright()">Right</button>
+                <button type="button" class="leftbutton" onclick="moveleft()">
+                    Left</button>
+                <button type="button" class="rightbutton" onclick="moveright()">
+                    Right</button>
             </div>
             <div class="comparisonbox">
                 <div class="predicate tableheader">
-                    <p></p>
+                    <p>
+                    </p>
                 </div>
                 <div class="window">
                     <div class="datarow">
                         <div class="datacell  tableheader">
                             <img src="img/852221_f496.jpg" />
-                            <p>Drogba</p>
+                            <p>
+                                Drogba</p>
                         </div>
                         <div class="datacell  tableheader">
                             <img src="img/852221_f496.jpg" />
-                            <p>Messi</p>
+                            <p>
+                                Messi</p>
                         </div>
                         <div class="datacell  tableheader">
                             <img src="img/852221_f496.jpg" />
-                            <p>Beckham</p>
+                            <p>
+                                Beckham</p>
                         </div>
                         <div class="datacell  tableheader">
                             <img src="img/852221_f496.jpg" />
-                            <p>Hamada</p>
+                            <p>
+                                Hamada</p>
                         </div>
-                        <div class="clearfix"></div>
+                        <div class="clearfix">
+                        </div>
                     </div>
                 </div>
-                <div class="clearfix"></div>
+                <div class="clearfix">
+                </div>
             </div>
             <div class="comparisonbox">
                 <div class="predicate">
@@ -68,7 +99,7 @@
                 </div>
                 <div class="window">
                     <div class="datarow">
-                        <div class="datacell">                     
+                        <div class="datacell">
                             Cote d'ivoire
                         </div>
                         <div class="datacell">
@@ -80,10 +111,12 @@
                         <div class="datacell">
                             Egypt
                         </div>
-                        <div class="clearfix"></div>
+                        <div class="clearfix">
+                        </div>
                     </div>
                 </div>
-                <div class="clearfix"></div>
+                <div class="clearfix">
+                </div>
             </div>
             <div class="comparisonbox">
                 <div class="predicate">
@@ -103,10 +136,12 @@
                         <div class="datacell">
                             11-5-19884
                         </div>
-                        <div class="clearfix"></div>
+                        <div class="clearfix">
+                        </div>
                     </div>
                 </div>
-                <div class="clearfix"></div>
+                <div class="clearfix">
+                </div>
             </div>
             <div class="comparisonbox">
                 <div class="predicate">
@@ -126,16 +161,18 @@
                         <div class="datacell">
                             Goalkeeper
                         </div>
-                        <div class="clearfix"></div>
+                        <div class="clearfix">
+                        </div>
                     </div>
                 </div>
-                <div class="clearfix"></div>
+                <div class="clearfix">
+                </div>
             </div>
         </div>
-    <div class="rightcol">
-    </div>
-    <div class="clearfix">
-    </div>
+        <div class="rightcol">
+        </div>
+        <div class="clearfix">
+        </div>
     </div>
     </form>
 </body>
