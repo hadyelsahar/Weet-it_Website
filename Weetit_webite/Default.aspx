@@ -6,9 +6,13 @@
     <title>Weetit- the knowledge engine</title>
     <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
     <script src="Scripts/UX/default.js" type="text/javascript"></script>
+    <script src="Scripts/DataTransfer/default_data.js" type="text/javascript"></script>
+    <script src="Scripts/json2.js" type="text/javascript"></script>
+
     <link href="Styles/default.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+  
     <div class="header">
         <div class="topmenu">
             <ul>

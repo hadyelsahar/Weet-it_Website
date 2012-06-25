@@ -67,6 +67,8 @@
     <Content Include="img\sb.png" />
     <Content Include="img\sb_clicked.png" />
     <Content Include="img\sb_hover.png" />
+    <Content Include="Scripts\DataTransfer\default_data.js" />
+    <Content Include="Scripts\json2.js" />
     <Content Include="Scripts\UX\default.js" />
     <Content Include="Styles\answerpage.css" />
     <Content Include="Styles\default.css" />

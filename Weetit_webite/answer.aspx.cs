@@ -9,6 +9,13 @@ namespace Weetit_webite
 {
     public partial class answer : System.Web.UI.Page
     {
+        public answer()
+        {
+
+          
+
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
