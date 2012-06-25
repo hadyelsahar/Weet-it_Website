@@ -9,7 +9,7 @@ namespace Weetit_webite
 {
     class QuestionClassifier
     {
-        public enum types {question,comparisson,relate};
+        public enum types {question,compare,relate};
         private string opText;
         public types ipType;
         private string[] buff;
@@ -36,7 +36,7 @@ namespace Weetit_webite
             {              
                 if (regx.IsMatch(opText))
                 {
-                    return(types.comparisson);
+                    return(types.compare);
                 }
             }
             string[] relateKeyWords = File.ReadAllLines("relateRegularExpression.txt");
