@@ -39,8 +39,8 @@
 {
     margin:0px;
     padding:0px;
-    width:1200px;
     position:relative;
+    display:none;
 }
 
 .contentwrapper .answerbox .comparisonbox .datarow .datacell

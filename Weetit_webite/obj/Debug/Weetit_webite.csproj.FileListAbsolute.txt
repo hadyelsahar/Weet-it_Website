@@ -10,3 +10,8 @@ E:\Users\hady\Documents\GitHub\Weet-it_Website\Weetit_webite\bin\Weetit_webite.d
 E:\Users\hady\Documents\GitHub\Weet-it_Website\Weetit_webite\bin\Weetit_webite.pdb
 E:\Users\hady\Documents\GitHub\Weet-it_Website\Weetit_webite\obj\Debug\Weetit_webite.dll
 E:\Users\hady\Documents\GitHub\Weet-it_Website\Weetit_webite\obj\Debug\Weetit_webite.pdb
+C:\Users\Omar\Documents\GitHub\Weet-it_Website\Weetit_webite\bin\Weetit_webite.dll
+C:\Users\Omar\Documents\GitHub\Weet-it_Website\Weetit_webite\bin\Weetit_webite.pdb
+C:\Users\Omar\Documents\GitHub\Weet-it_Website\Weetit_webite\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Omar\Documents\GitHub\Weet-it_Website\Weetit_webite\obj\Debug\Weetit_webite.dll
+C:\Users\Omar\Documents\GitHub\Weet-it_Website\Weetit_webite\obj\Debug\Weetit_webite.pdb

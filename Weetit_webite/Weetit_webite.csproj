@@ -72,6 +72,7 @@
     <Content Include="Scripts\json2.js" />
     <Content Include="Scripts\UX\default.js" />
     <Content Include="Styles\answerpage.css" />
+    <Content Include="Styles\comparisonpage.css" />
     <Content Include="Styles\default.css" />
     <Content Include="Styles\Defaultpage.css" />
     <Content Include="Styles\Site.css" />

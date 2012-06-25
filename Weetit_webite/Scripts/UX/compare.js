@@ -6,8 +6,10 @@ var counter = 0;
 
 function settableviewvariables() {
     DATACELLSNUMBER = $(".datarow").children(".datacell").length / $(".datarow").length;
-
     counter = DATACELLSNUMBER;
+    var rowwidth = DATACELLSNUMBER * 300;
+    $(".datarow").css("width", rowwidth.toString() + "px");
+    $(".datarow").fadeIn();
 }
 
 function moveright() {
