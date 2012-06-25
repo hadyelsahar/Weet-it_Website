@@ -9,7 +9,7 @@ function settableviewvariables() {
     counter = DATACELLSNUMBER;
     var rowwidth = DATACELLSNUMBER * 300;
     $(".datarow").css("width", rowwidth.toString() + "px");
-    $(".datarow").fadeIn();
+    $(".comparisonbox").fadeIn();
 }
 
 function moveright() {

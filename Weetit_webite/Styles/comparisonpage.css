@@ -4,6 +4,7 @@
     padding:0px;
     width:700px;
     overflow:hidden;
+    display:none;
 }
 
 .contentwrapper .answerbox .comparisonbox .predicate
@@ -40,7 +41,6 @@
     margin:0px;
     padding:0px;
     position:relative;
-    display:none;
 }
 
 .contentwrapper .answerbox .comparisonbox .datarow .datacell
