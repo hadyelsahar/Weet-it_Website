@@ -6,6 +6,7 @@ var counter = 0;
 
 function settableviewvariables() {
     DATACELLSNUMBER = $(".datarow").children(".datacell").length / $(".datarow").length;
+
     counter = DATACELLSNUMBER;
 }
 
@@ -31,7 +32,9 @@ $(document).ready(settableviewvariables);
 
 $(document).ready(function () {
 
-    $(window).keyup(function () {
+
+    $(window).keyup(function (event) {
+
         if (event.which == 37) {
             moveleft();
         }
