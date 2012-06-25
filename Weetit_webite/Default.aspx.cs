@@ -17,26 +17,24 @@ namespace Weetit_webite
         }
 
         [WebMethod(EnableSession = false)]
-        public static int submit(string type ,string data )
+        public static void submit(string type ,string data )
         {
-            //if (type.ToLower() == "q&a")
-            //{
-               
-            //}
-            //else if (type.ToLower() == "compare")
-            //{
+            if (type.ToLower() == "q&a")
+            {
 
-            //    HttpContext.Current.Server.Transfer("~/compare.aspx", true);    
+            }
+            else if (type.ToLower() == "compare")
+            {
 
-            //}
-            //else if (type.ToLower() == "relate")
-            //{
+                HttpContext.Current.Server.Transfer("~/aspx.compareisq=who ?the son of hosni mybarak", true);
+
+            }
+            else if (type.ToLower() == "relate")
+            {
 
 
-            //    HttpContext.Current.Server.Transfer("~/relate.aspx", true);    
-            //}
-
-            return 32; 
+                HttpContext.Current.Server.Transfer("~/relate.aspx", true);
+            }
         }
     }
 }

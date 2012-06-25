@@ -7,6 +7,7 @@
     <link href="Styles/Defaultpage.css" rel="stylesheet" type="text/css" />
     <link href="Styles/answerpage.css" rel="stylesheet" type="text/css" />
     <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/UX/compare.js" type="text/javascript"></script>
 </head>
 <body>
     <form id="form1" runat="server">
