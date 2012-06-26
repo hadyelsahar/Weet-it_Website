@@ -8,6 +8,7 @@
     <link href="Styles/answerpage.css" rel="stylesheet" type="text/css" />
     <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
     <script src="Scripts/UX/compare.js" type="text/javascript"></script>
+    <script src="Scripts/UX/defaultpage.js" type="text/javascript"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -35,13 +36,9 @@
                 <input type="text" class="searchinput" /><a href="#" class="button addbutton"></a><a
                     href="#" class="button searchbutton"></a>
             </div>
+            <div class="clearfix"></div>
             <div class="addedEntitiesBox">
-                <span class="title">Relate between:</span> <span class="addedEntity">Batman begins<img
-                    src="img/closeIconHover.png" /></span> <span class="addedEntity">how i met your mother
-                        <img src="img/closeIcon.png" />
-                    </span><span class="addedEntity">assasins creed<img src="img/closeIcon.png" /></span>
-                <span class="addedEntity">Hello<img src="img/closeIcon.png" /></span> <span class="addedEntity">
-                    anitvirus<img src="img/closeIcon.png" /></span>
+                <span class="title">Relate between:</span>
             </div>
         </div>
         <div class="clearfix">
@@ -52,7 +49,7 @@
             <p>
             </p>
         </div>
-        <div class="answerbox">
+        <div class="answerbox" id="answerbox" runat="server">
             <div class="fullprofile">
                 <div class="abstractcontainer">
                     <div class="profilepic">

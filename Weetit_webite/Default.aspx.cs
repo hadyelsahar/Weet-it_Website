@@ -22,10 +22,10 @@ namespace Weetit_webite
             QuestionClassifier classifier = new QuestionClassifier(data);
             List<string> tempList = classifier.getObjects();
             string returnData="";
-            returnData += "{\"type\":\"" + classifier.ipType.ToString() + "\",\"data\":";
+            returnData += "{'type':'" + classifier.ipType.ToString() + "','data':";
             if (tempList.Count == 1)
             {
-                returnData += "\"" + tempList[0] + "\"}";
+                returnData += "'" + tempList[0] + "'}";
             }
             else
             {
@@ -35,11 +35,11 @@ namespace Weetit_webite
                 {
                     if (i < tempList.Count - 1)
                     {
-                        returnData += "\"" + tempList[0] + "\",";
+                        returnData += "'" + tempList[i] + "',";
                     }
                     else
                     {
-                        returnData += "\"" + tempList[0] + "\"]}";
+                        returnData += "'" + tempList[i] + "']}";
                     }
                 }
             }

@@ -57,6 +57,8 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="answer.aspx" />
+    <Content Include="files\ComparissonRegularExpression.txt" />
+    <Content Include="files\QuestionRegularExpression.txt" />
     <Content Include="relate.aspx" />
     <Content Include="compare.aspx" />
     <Content Include="img\add.png" />
@@ -67,10 +69,14 @@
     <Content Include="img\sb.png" />
     <Content Include="img\sb_clicked.png" />
     <Content Include="img\sb_hover.png" />
+    <Content Include="files\RelateRegularExpression.txt" />
+    <Content Include="files\RemoveRegularExpression.txt" />
     <Content Include="Scripts\DataTransfer\default_data.js" />
     <Content Include="Scripts\UX\compare.js" />
     <Content Include="Scripts\json2.js" />
     <Content Include="Scripts\UX\default.js" />
+    <Content Include="files\Separators.txt" />
+    <Content Include="Scripts\UX\defaultpage.js" />
     <Content Include="Styles\answerpage.css" />
     <Content Include="Styles\comparisonpage.css" />
     <Content Include="Styles\default.css" />
@@ -88,6 +94,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="files\Weetit_webite.csproj.FileListAbsolute.txt" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account\ChangePassword.aspx.cs">

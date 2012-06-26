@@ -35,6 +35,7 @@
                 <input type="text" class="searchinput" /><a href="#" class="button addbutton"></a><a
                     href="#" class="button searchbutton"></a>
             </div>
+            <div class="clearfix"></div>
             <div class="addedEntitiesBox">
                 <span class="title">Relate between:</span> <span class="addedEntity">Batman begins<img
                     src="img/closeIconHover.png" /></span> <span class="addedEntity">how i met your mother
